@@ -49,9 +49,9 @@ O `config/opencode.json` referencia o PAT como `{file:~/.config/opencode/secrets
 | `context7` | remote | `https://mcp.context7.com/mcp` |
 | `github` | remote | `https://api.githubcopilot.com/mcp/` (Bearer via arquivo do PAT) |
 | `playwright` | local | `npx -y @playwright/mcp@latest --executable-path <chromium>` |
-| `rea` | local | `npx -y rea-agents@6.8.0 mcp` (env `HOPPER_LAUNCHER_PATH`) |
+| `rea` | local | `npx -y rea-agents@6.9.0 mcp` (provider Ghidra) |
 
-**Ajuste por máquina:** o caminho do Chromium do Playwright e o `HOPPER_LAUNCHER_PATH` (`/opt/hopper/bin/Hopper`) são específicos deste setup. Em outra máquina, edite `config/opencode.json` antes de instalar.
+**Ajuste por máquina:** o caminho do Chromium do Playwright e o `GHIDRA_INSTALL_DIR` (`/opt/ghidra`) são específicos deste setup. Em outra máquina, edite `config/opencode.json` antes de instalar. O REA usa Ghidra 12.1.x/12.2 via `REA_ANALYSIS_PROVIDER=ghidra`.
 
 ## Plugins
 
