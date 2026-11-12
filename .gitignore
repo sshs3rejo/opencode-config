@@ -1,0 +1,8 @@
+# Segredos e estado local (nunca versionar)
+secrets/
+service.json
+opencode.db
+opencode.db-*
+*.bak*
+*.log
+node_modules/

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "system"
+  },
+  "animations": true,
+  "session": {
+    "scrollbar": true,
+    "thinking": "hide",
+    "markdown": "rendered",
+    "image_preview": true,
+    "permissions": "prompt"
+  },
+  "attention": {
+    "notifications": true,
+    "sound": true
+  },
+  "debug": {
+    "devtools": true
+  },
+  "experimental": {
+    "client-mcp": true,
+    "new-designs": false
+  }
+}
